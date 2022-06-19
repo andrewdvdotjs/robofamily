@@ -9,6 +9,7 @@ const CardList = ({ robots }) =>{
             id={robots[i].id}
             name={robots[i].name}
             email={robots[i].email}
+            catchPhrase={robots[i].company.catchPhrase }
         />
         );
     })
@@ -20,6 +21,21 @@ const CardList = ({ robots }) =>{
 }
 
 export default CardList;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 * 'é melhor fazemos loop pois caso adicionemos muitos robôs,
